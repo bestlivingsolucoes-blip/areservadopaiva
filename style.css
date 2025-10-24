@@ -1,0 +1,102 @@
+/* Estilo sofisticado verde e dourado */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #faf9f6;
+  color: #1b1b1b;
+}
+
+header {
+  background: linear-gradient(to right, #044c3c, #0a7d63);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #044c3c;
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: #d4af37;
+  color: #044c3c;
+  font-weight: bold;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #c59b2f;
+}
+
+a {
+  color: #0a7d63;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #555;
+  background: #f4f4f4;
+}
